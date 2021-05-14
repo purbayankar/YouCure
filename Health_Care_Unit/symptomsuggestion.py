@@ -73,7 +73,7 @@ def diseaseDetail(term):
     for dis in diseases:
         # search "disease wilipedia" on google 
         query = dis+' wikipedia'
-        for sr in search(query+".co.in",stop=10,pause=0.5): 
+        for sr in search(query+".co.in"): 
             # open wikipedia link
             match=re.search(r'wikipedia',sr)
             filled = 0
