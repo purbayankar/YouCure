@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<title>Sign up</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" align="center">
+    <h1>Thank you for choosing our app</h1>
+    <h2>Hope, you will soon be cured</h2>
+
+    <h5>Please sign up before going any further</h5>
+
+    <form action="/signup" method="POST">
+        <header style="margin-top: 10px;"><h2>Sign Up</h2></header>
+        <label for="first">First Name: </label>
+        <input type="text" id="first" name="first" required>
+        <label for="last">Last Name: </label>
+        <input type="text" id="last" name="last" required>
+        <label for="useremail">Email: </label>
+        <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
+        <label for="userpass">Password: </label>
+        <input id="userpass" name="userpass" type="password" required>
+
+        <button type="submit" class="btn btn-success">Sign Up</button>
+    </form>
+</div>
+
+<style>
+    .container form {
+        margin-top: 50px;
+        border: 2px solid black;
+        width: 300px;
+        height: 400px;
+    }
+
+    label + input {
+        margin-top: 30px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+</style>
+
+{% endblock %}

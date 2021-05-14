@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<title>LogIn</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" align="center">
+    <h1>Welcome!!</h1>
+    <h1>To our healthcare web app</h1>
+
+    <h4>Log in to get the best possible solutions for your health problems</h4>
+
+    <form action="/login" method="POST">
+        <header style="margin-top: 10px;"><h2>Log In</h2></header>
+
+        <label for="useremail">Username: </label>
+        <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
+        <label for="userpass">Password: </label>
+        <input id="userpass" name="userpass" type="password" required>
+
+        <div class="form-check">
+            <input type="checkbox" id="check" name="remember">
+            <label for="check">Remember me</label>
+        </div>
+
+        <button type="submit" class="btn btn-success">Log In</button>
+    </form>
+</div>
+
+<style>
+    .container form {
+        margin-top: 50px;
+        border: 2px solid black;
+        width: 300px;
+        height: 350px;
+    }
+
+    label + input {
+        margin-top: 50px;
+    }
+
+    .form-check {
+        margin-top: 30px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+</style>
+{% endblock %}

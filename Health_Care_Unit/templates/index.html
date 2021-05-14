@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<title>Home Page</title>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to YouCure</h1> <br>
+    <p>If you are new to this app, click <a href="{{ url_for('health_auth.signup') }}">here</a> to sign up with your email address</p>
+    <p>If you have already an account, then click <a href="{{ url_for('health_auth.login') }}">here</a> to login</p>
+</div>
+{% endblock %}

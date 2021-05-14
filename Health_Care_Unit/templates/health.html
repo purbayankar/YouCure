@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<title>Health Page</title>
+{% endblock %} 
+
+{% block content %}
+
+<div class="container">
+    <h1>Welcome {{ name }}</h1>
+
+    <p style="margin-top: 20px;">Please tell us your symptoms. We will try to predict possible diseases from your symptoms. You will also be able to get the details of the diseases.</p>
+    <form action="/health" method="POST">
+        <label for="symptoms" class="form-label">Symptoms:</label> <br>
+        <div class="row">
+            
+            <div class="col-md-6">
+                <textarea name="symptoms" id="symptoms" cols="80" rows="10" style="font-size: 14px;" placeholder="{{ ph }}"></textarea>
+            </div>
+            {% if request.method == 'POST' %}
+            <div class="col-md-6">
+                <textarea name="symptoms" id="symptoms" cols="80" rows="10" style="font-size: 14px;">{{ value }}</textarea>
+            </div>
+            {% endif %}
+        </div>
+        {% if ph != "" %}
+        <button type="submit" class="btn btn-outline-success">Submit</button>
+        {% endif %}
+    </form>
+</div>
+
+{% endblock %}
