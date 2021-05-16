@@ -268,20 +268,24 @@ Note :
 
 ---
 
-## Contributor
+# Engage in the [Discussions](https://github.com/purbayankar/YouCure/discussions) for more questions.
+
+### Contributing
+Please see the [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md) before contributing.
+
+## 🌟 Contributors 
+
+Thanks to these wonderful people ✨✨:
+
 <table>
 	<tr>
 		<td>
-			<a href="https://github.com/chiraag-kakar/sharenlearn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chiraag-kakar/sharenlearn" />
-</a>
+			<a href="https://github.com/purbayankar/YouCure/graphs/contributors">
+  				<img src="https://contrib.rocks/image?repo=ucalyptus/Spotify-Recommendation-Engine" />
+			</a>
 		</td>
 	</tr>
 </table>
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chiraag-kakar/sharenlearn/blob/master/LICENSE) file for details.
-
-## AUTHOR : [Chiraag Kakar](https://github.com/chiraag-kakar)
+## AUTHOR : [Purbayan Kar](https://github.com/purbayankar)
 
