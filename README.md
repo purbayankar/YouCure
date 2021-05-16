@@ -1,7 +1,7 @@
 ![](https://github.com/purbayankar/YouCure/blob/main/Webp.net-gifmaker.gif)
 
 
-[![](https://img.shields.io/github/license/chiraag-kakar/sharenlearn?style=for-the-badge)]()
+[![](https://img.shields.io/github/license/purbayankar/YouCure?style=for-the-badge)]()
 [![](https://img.shields.io/tokei/lines/github/chiraag-kakar/sharenlearn?label=Lines%20of%20Code&style=for-the-badge)]()
 [![](https://img.shields.io/github/issues-raw/chiraag-kakar/sharenlearn?color=orange&style=for-the-badge)]()
 [![](https://img.shields.io/github/issues-closed/chiraag-kakar/sharenlearn?style=for-the-badge)]()
