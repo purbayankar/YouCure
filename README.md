@@ -1,18 +1,6 @@
 ![](https://github.com/purbayankar/YouCure/blob/main/Webp.net-gifmaker.gif)
 
 
-[![](https://img.shields.io/github/license/purbayankar/YouCure?style=for-the-badge)]()
-[![](https://img.shields.io/tokei/lines/github/chiraag-kakar/sharenlearn?label=Lines%20of%20Code&style=for-the-badge)]()
-[![](https://img.shields.io/github/issues-raw/chiraag-kakar/sharenlearn?color=orange&style=for-the-badge)]()
-[![](https://img.shields.io/github/issues-closed/chiraag-kakar/sharenlearn?style=for-the-badge)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/chiraag-kakar/sharenlearn/pulls)
-[![](https://img.shields.io/github/issues-pr-closed-raw/chiraag-kakar/sharenlearn?style=for-the-badge)]()
-[![](https://img.shields.io/github/issues-pr/chiraag-kakar/sharenlearn?style=for-the-badge)]()
-[![](https://img.shields.io/github/forks/chiraag-kakar/sharenlearn?style=for-the-badge)]()
-[![](https://img.shields.io/github/stars/chiraag-kakar/sharenlearn?style=for-the-badge)]()
-[![](https://img.shields.io/website?style=for-the-badge&url=https://sharenlearn.herokuapp.com)](https://sharenlearn.herokuapp.com)
-
-
 **Share N Learn is a Common Platform for Students & Faculties to upload and share - files including all sorts of study material which will be accessible to all the registered members built using [Django](https://docs.djangoproject.com/en/3.1/) Framework.**
 
 The **Goal** of the project is to create a secure and scalable platform common to both college students and faculties so that they can easily share the files/resources related to coursework, 
