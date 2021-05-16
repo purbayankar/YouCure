@@ -271,7 +271,7 @@ Note :
 # Engage in the [Discussions](https://github.com/purbayankar/YouCure/discussions) for more questions.
 
 ### Contributing
-Please see the [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md) before contributing.
+Please see the [Code of Conduct](https://github.com/purbayankar/YouCure/blob/master/CODE_OF_CONDUCT.md) before contributing.
 
 ## 🌟 Contributors 
 
