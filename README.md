@@ -249,23 +249,6 @@ python manage.py run server
 ## Congratulations on setting up the project locally.
 
 
-## Contributing
-
-* Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* For major changes, please open an [issue](https://github.com/chiraag-kakar/sharenlearn/issues) first to discuss what you would like to change.
-
-
-Note : 
-* Please take a moment to review the [Contributing.md](https://github.com/chiraag-kakar/sharenlearn/blob/master/Contributing.md) and [Code of Conduct](./code_of_conduct.md) which provides the guidelines for contributing.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b <your_branch_name>`)
-3. Stage your Changes (`git add .`) 
-4. Commit your Changes (`git commit -m '<your_commit_message>'`)
-5. Push to the Branch (`git push origin <your_branch_name>`)
-6. Open a [Pull Request](https://github.com/chiraag-kakar/sharenlearn/pulls)
-
-
 ---
 
 # Engage in the [Discussions](https://github.com/purbayankar/YouCure/discussions) for more questions.
