@@ -270,6 +270,6 @@ Thanks to these wonderful people ✨✨:
 	</tr>
 </table>
 
-## AUTHOR : [Purbayan Kar](https://github.com/purbayankar) [Anik Chatterjee](https://github.com/starboi2000)
+## AUTHOR : [Purbayan Kar](https://github.com/purbayankar) [Anik Chatterjee](https://github.com/starboi2000) [Sagnik Basu](https://github.com/Swagnick99)
 
 
