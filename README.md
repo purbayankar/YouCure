@@ -267,6 +267,12 @@ Thanks to these wonderful people ✨✨:
   				<img src="https://contrib.rocks/image?repo=purbayankar/YouCure" />
 			</a>
 		</td>
+		
+		<td>
+			<a href="https://github.com/purbayankar/YouCure/graphs/contributors">
+  				<img src="https://contrib.rocks/image?repo=Swagnick99/YouCure" />
+			</a>
+		</td>
 	</tr>
 </table>
 
