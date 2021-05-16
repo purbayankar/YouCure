@@ -271,7 +271,7 @@ Note :
 # Engage in the [Discussions](https://github.com/purbayankar/YouCure/discussions) for more questions.
 
 ### Contributing
-Please see the [Code of Conduct](https://github.com/purbayankar/YouCure/blob/main/CODE_OF_CONTACT.md before contributing.)
+Please see the [Code of Conduct](https://github.com/purbayankar/YouCure/blob/main/CODE_OF_CONTACT.md) before contributing.
 
 ## 🌟 Contributors 
 
