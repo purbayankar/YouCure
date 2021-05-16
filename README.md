@@ -1,4 +1,4 @@
-![](https://github.com/chiraag-kakar/sharenlearn/blob/master/banner.png)
+![](https://github.com/purbayankar/YouCure/blob/main/Webp.net-gifmaker.gif)
 
 
 [![](https://img.shields.io/github/license/chiraag-kakar/sharenlearn?style=for-the-badge)]()
