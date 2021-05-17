@@ -19,9 +19,15 @@ This app is made using Flask and so you can use it in both mobile and pc.
 
 ```
 Any Code Editor (VS Code preferred)
-Python version 3.7 or higher
+Python version 3.7 or higher (3.9 recommended)
 The latest version of Git
-A PythonAnywhere Account (for deploying the project on a live system)
+A Heroku Account (for deploying the project on a live system)
+```
+
+```
+If you want to clone our project, run this: "git clone https://github.com/purbayankar/YouCure"
+Then to install all the required modules run "pip install -r requirements.txt"
+To run this app in your local machine run "python app.py"
 ```
 
 
@@ -41,7 +47,7 @@ Thanks to these wonderful people ✨✨:
 	<tr>
 		<td>
 			<a href="https://github.com/purbayankar/YouCure/graphs/contributors">
-  				<img src="https://contrib.rocks/image?repo=purbayankar/YouCure" />
+  				
 			</a>
 		</td>
 	</tr>
