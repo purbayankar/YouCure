@@ -12,9 +12,6 @@ In the future, the platform can also serve as an e-library for college students.
 
                                       😃Hit that ⭐ button to show some ❤️           
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
