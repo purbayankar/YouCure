@@ -1,13 +1,14 @@
-![](https://github.com/purbayankar/YouCure/blob/main/Webp.net-gifmaker.gif)
+![](https://github.com/purbayankar/YouCure/blob/main/Health_Care_Unit/static/Webp.net-gifmaker.gif)
 
 
-**Share N Learn is a Common Platform for Students & Faculties to upload and share - files including all sorts of study material which will be accessible to all the registered members built using [Django](https://docs.djangoproject.com/en/3.1/) Framework.**
+**YouCure will predict diseases based on your symptoms and will give descriptions so that you get healed fast**
 
-The **Goal** of the project is to create a secure and scalable platform common to both college students and faculties so that they can easily share the files/resources related to coursework, 
-Competitive exams and others hence reducing the dependency on social media platforms.
-In the future, the platform can also serve as an e-library for college students.
+The **Goal** of the project is to create a platform to know your symptoms and inform you about your disease, so that
+you can appoint a doctor with proper specialization, and it will also help you find your nearby hospitals.
 
-**So let's grow together.**
+This app is made using Flask and so you can use it in both mobile and pc.
+
+**So let's help each other.**
 
 
                                       😃Hit that ⭐ button to show some ❤️           
