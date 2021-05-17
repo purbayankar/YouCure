@@ -46,7 +46,9 @@ Thanks to these wonderful people ✨✨:
 <table>
 	<tr>
 		<td>
-			
+			<a href="https://github.com/purbayankar/YouCure/graphs/contributors">
+  				<img src="https://contrib.rocks/image?repo=purbayankar/YouCure" />
+			</a>
 		</td>
 	</tr>
 </table>
