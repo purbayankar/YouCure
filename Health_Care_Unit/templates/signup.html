@@ -13,36 +13,46 @@
 
     <h5>Please sign up before going any further</h5>
 
-    <form action="/signup" method="POST">
-        <header style="margin-top: 10px;"><h2>Sign Up</h2></header>
-        <label for="first">First Name: </label>
-        <input type="text" id="first" name="first" required>
-        <label for="last">Last Name: </label>
-        <input type="text" id="last" name="last" required>
-        <label for="useremail">Email: </label>
-        <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
-        <label for="userpass">Password: </label>
-        <input id="userpass" name="userpass" type="password" required>
+    <div class="wrapper">
+        <form action="/signup" method="POST">
+            <header><h2>Sign Up</h2></header>
+            <p>
+                <label for="first">First Name: </label>
+                <input type="text" id="first" name="first" required>
+            </p>
+            <p>
+                <label for="last">Last Name: </label>
+                <input type="text" id="last" name="last" required>
+            </p>
+            <p>
+                <label for="useremail">Email: </label>
+                <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
+            </p>
+            <p>
+                <label for="userpass">Password: </label>
+                <input id="userpass" name="userpass" type="password" required>
+            </p>
 
-        <button type="submit" class="btn btn-success">Sign Up</button>
-    </form>
+            <p>
+                <button type="submit" class="btn btn-success">Sign Up</button>
+            </p>
+        </form>
+    </div>
 </div>
 
 <style>
-    .container form {
+    .wrapper {
+        box-sizing: border-box;
         margin-top: 50px;
         border: 2px solid black;
-        width: 300px;
-        height: 400px;
+        width: fit-content;
+        height: fit-content
     }
 
-    label + input {
-        margin-top: 30px;
+    .wrapper > * {
+        padding: 3em;
     }
 
-    button {
-        margin-top: 30px;
-    }
 </style>
 
 {% endblock %}

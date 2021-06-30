@@ -13,41 +13,43 @@
 
     <h4>Log in to get the best possible solutions for your health problems</h4>
 
-    <form action="/login" method="POST">
-        <header style="margin-top: 10px;"><h2>Log In</h2></header>
+    <div class="wrapper">
+        <form action="/login" method="POST">
+            <header><h2>Log In</h2></header>
 
-        <label for="useremail">Username: </label>
-        <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
-        <label for="userpass">Password: </label>
-        <input id="userpass" name="userpass" type="password" required>
+            <p>
+                <label for="useremail">Username: </label>
+                <input id="useremail" name="useremail" type="email" placeholder="abc@gmail.com" required>
+            </p>
+            <p>
+                <label for="userpass">Password: </label>
+                <input id="userpass" name="userpass" type="password" required>
+            </p>
 
-        <div class="form-check">
-            <input type="checkbox" id="check" name="remember">
-            <label for="check">Remember me</label>
-        </div>
+            <div class="form-check">
+                <input type="checkbox" id="check" name="remember">
+                <label for="check">Remember me</label>
+            </div>
 
-        <button type="submit" class="btn btn-success">Log In</button>
-    </form>
+            <p>
+                <button type="submit" class="btn btn-success">Log In</button>
+            </p>
+        </form>
+    </div>
 </div>
 
 <style>
-    .container form {
+    .wrapper {
+        box-sizing: border-box;
         margin-top: 50px;
         border: 2px solid black;
-        width: 300px;
-        height: 350px;
+        width: fit-content;
+        height: fit-content;
     }
 
-    label + input {
-        margin-top: 50px;
+    .wrapper > * {
+        padding: 3em;
     }
 
-    .form-check {
-        margin-top: 30px;
-    }
-
-    button {
-        margin-top: 10px;
-    }
 </style>
 {% endblock %}

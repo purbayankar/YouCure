@@ -1,11 +1,13 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+from flask_ngrok import run_with_ngrok
 
 db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
+    run_with_ngrok(app)
     app.config['SECRET_KEY'] = 'secret-key'
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
     db.init_app(app)
