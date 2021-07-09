@@ -52,4 +52,17 @@
     }
 
 </style>
+
+{% if email_not_exist %}
+<script>
+    alert("You have not signed up\nPlease sign up before logging in");
+</script>
+{% endif %}
+
+{% if wrong_pwd %}
+<script>
+    alert("You have entered the wrong password\nPlease check and try again");
+</script>
+{% endif %}
+
 {% endblock %}

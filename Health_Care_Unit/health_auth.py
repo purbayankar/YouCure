@@ -15,15 +15,15 @@ def signup():
 
         patient = Patient.query.filter_by(email=email).first()
         if patient:
-            return redirect(url_for('health_auth.signup'))
-        
+            return render_template("signup.html", alert=True)
+
         new_patient = Patient(name=name, email=email, pwd=generate_password_hash(pwd, method="sha256"))
         db.session.add(new_patient)
         db.session.commit()
 
         return redirect(url_for('health_auth.login'))
     
-    return render_template("signup.html")
+    return render_template("signup.html", alert=False)
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
@@ -33,13 +33,15 @@ def login():
         remember = True if request.form.get('remember') else False
 
         patient = Patient.query.filter_by(email=email).first()
-        if not patient or not check_password_hash(patient.pwd, pwd):
-            return redirect(url_for('health_auth.login'))
+        if not patient:
+            return render_template("login.html", email_not_exist=True, wrong_pwd=False)
+        elif not check_password_hash(patient.pwd, pwd):
+            return render_template("login.html", email_not_exist=False, wrong_pwd=True)
 
         login_user(patient, remember=remember)
         return redirect(url_for('health_main.health'))
 
-    return render_template("login.html")
+    return render_template("login.html", email_not_exist=False, wrong_pwd=False)
 
 @auth.route('/logout')
 @login_required

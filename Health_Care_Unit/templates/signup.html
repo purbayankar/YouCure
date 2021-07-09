@@ -54,5 +54,10 @@
     }
 
 </style>
+{% if alert %}
+<script>
+    alert("This email id already exists\nUse a new email id or go to login page");
+</script>
+{% endif %}
 
 {% endblock %}
