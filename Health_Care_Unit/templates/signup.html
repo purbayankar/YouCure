@@ -60,4 +60,10 @@
 </script>
 {% endif %}
 
+{% if unsafe %}
+<script>
+    alert("This email id is not safe, please use a valid one");
+</script>
+{% endif %}
+
 {% endblock %}
