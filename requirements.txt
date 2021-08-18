@@ -17,6 +17,7 @@ cryptography==3.4.7
 cycler==0.10.0
 decorator==5.0.6
 distlib==0.3.1
+dnspython==2.1.0
 et-xmlfile==1.0.1
 filelock==3.0.12
 Flask==1.1.2
@@ -29,7 +30,7 @@ graphviz==0.16
 greenlet==1.0.0
 gunicorn==20.1.0
 html5lib==1.1
-idna==2.10
+idna==3.2
 ipython==7.22.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
@@ -53,6 +54,7 @@ pickle-mixin==1.0.2
 pickleshare==0.7.5
 Pillow==8.2.0
 prompt-toolkit==3.0.18
+py3-validate-email==1.0.1
 pycparser==2.20
 Pygments==2.8.1
 PyMySQL==1.0.2
@@ -64,7 +66,7 @@ regex==2021.4.4
 requests==2.25.1
 requests-file==1.5.1
 s3fs==0.6.0
-scikit-learn==0.24.1
+scikit-learn==0.24.2
 scipy==1.6.2
 seaborn==0.11.1
 selenium==3.141.0
@@ -79,11 +81,12 @@ traitlets==5.0.5
 typing-extensions==3.7.4.3
 unshortenit==0.4.0
 urlexpander==0.0.36
-urllib3==1.25.9
+urllib3==1.26.6
 virtualenv==20.4.3
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
+wincertstore==0.2
 wrapt==1.12.1
 xgboost==1.4.1
 xlrd==2.0.1
